@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+    font-family: 'Reddit Mono', monospace;
+    background-color: #fcf7f7;
+}
+header{
+    background-color: black;
+    color: white;
+    padding:1rem ;
+}
+.container
+{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;  
+}
+nav ul li{
+    margin-left: 1.8em;
+a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}}
+nav ul li a:hover{
+    color: aqua;
+    
+}

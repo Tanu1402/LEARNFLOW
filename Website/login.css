@@ -1,0 +1,32 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-form{
+    width:400px;
+    flex-direction: row;
+ h2{
+    text-align: center;
+    margin: 20px;
+ }
+    form{
+        display: grid;
+        gap: 1.3em;
+    }
+    input{
+        padding: .5rem;
+    }
+    button
+    {
+        height: 30px;
+        font-size: 17px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: white;
+        color: black;
+    }
+}
